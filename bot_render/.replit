@@ -1,0 +1,9 @@
+[run]
+command = "bash start.sh"
+
+[nix]
+channel = "stable-23_11"
+
+[[ports]]
+localPort = 8080
+externalPort = 80
